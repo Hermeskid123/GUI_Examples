@@ -1,0 +1,137 @@
+[70078][      debug] Loading models took 26.959ms
+[70079][      debug] Sqlite write daemon: starting up
+[70079][      debug] Sqlite write daemon: set up complete, waiting for connections
+[70078][environment] CWD = /home/preston/Documents/Year 2/cse1325-prof/12/java
+[70078][environment] No .inferconfig file found
+[70078][environment] Project root = /home/preston/Documents/Year 2/cse1325-prof/12/java
+[70078][environment] INFER_ARGS =   @/tmp/args.tmp.708b56
+[70078][environment] command line arguments:   infer run -- javac GUIDemo.java
+[70078][environment]                           HelloButtonActive.java HelloButtonAnonymous.java
+[70078][environment]                           HelloButton.java HelloButtonLambda.java
+[70078][environment]                           HelloDialog.java HelloJava.java HelloLabel.java
+[70078][environment]                           HelloWorld2.java HelloWorld.java
+[70078][environment] Available memory at startup: 11101 MB
+[70078][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java)
+[70078][environment] Scheduler: file
+[70078][environment] Cores used: 4
+[70078][environment] Infer version v1.0.0
+[70078][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[70078][environment] 
+[70078][   progress] Capturing in javac mode...
+[70078][      debug] Current working directory: '/home/preston/Documents/Year 2/cse1325-prof/12/java'
+[70078][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/preston/Documents/Year 2/cse1325-prof/12/java/infer-out/tmp/javac_args.tmp.bc9529' 2>'/home/preston/Documents/Year 2/cse1325-prof/12/java/infer-out/tmp/javac.tmp.57fe8b.out'
+[70078][      debug] *** Success. Logs:
+[70078][      debug] Translating 10 source files (12 classes)
+[70078][      debug] done capturing all files
+[70078][      debug] GC stats for capture:
+[70078][      debug]   minor_words: 2.42199e+06
+[70078][      debug]   promoted_words: 359984
+[70078][      debug]   major_words: 378248
+[70078][      debug]   minor_collections: 3
+[70078][      debug]   major_collections: 0
+[70078][      debug]   compactions: 0
+[70078][      debug]   top_heap_words: 1157632
+[70078][      debug]   
+[70078][environment] Parallel jobs: 4
+[70078][   progress] Found 10 source files to analyze in /home/preston/Documents/Year 2/cse1325-prof/12/java/infer-out
+[70104][   progress] HelloLabel.java starting
+[70102][   progress] HelloButton.java starting
+[70103][   progress] HelloWorld.java starting
+[70105][   progress] GUIDemo.java starting
+[70102][   progress] HelloButton.java DONE
+[70102][   progress] HelloButtonAnonymous.java starting
+[70104][   progress] HelloLabel.java DONE
+[70104][   progress] HelloButtonLambda.java starting
+[70103][   progress] HelloWorld.java DONE
+[70103][   progress] HelloDialog.java starting
+[70103][   progress] HelloDialog.java DONE
+[70103][   progress] HelloWorld2.java starting
+[70105][   progress] GUIDemo.java DONE
+[70105][   progress] HelloJava.java starting
+[70105][   progress] HelloJava.java DONE
+[70105][   progress] HelloButtonActive.java starting
+[70102][   progress] HelloButtonAnonymous.java DONE
+[70103][   progress] HelloWorld2.java DONE
+[70104][   progress] HelloButtonLambda.java DONE
+[70105][   progress] HelloButtonActive.java DONE
+[70078][      debug] Backend stats:
+[70078][      debug]   summary_file_try_load= 772
+[70078][      debug]   summary_read_from_disk= 1
+[70078][      debug]   summary_cache_hits= 493 (38%)
+[70078][      debug]   summary_cache_misses= 772
+[70078][      debug]   ondemand_procs_analyzed= 31
+[70078][      debug]   ondemand_local_cache_hits= 402 (76%)
+[70078][      debug]   ondemand_local_cache_misses= 125
+[70078][      debug]   proc_locker_lock_time_user= 0.00000000
+[70078][      debug]   proc_locker_lock_time_sys= 0.00000000
+[70078][      debug]   proc_locker_lock_time_wall= 0.00000000
+[70078][      debug]   proc_locker_unlock_time_user= 0.00000000
+[70078][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[70078][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[70078][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[70078][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[70078][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[70078][      debug]   restart_scheduler_total_time_user= 0.00000000
+[70078][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[70078][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[70078][      debug]   
+[70078][      debug] GC stats for backend_stats.gc_stats_add.:
+[70078][      debug]   minor_words: 3.71941e+07
+[70078][      debug]   promoted_words: 179385
+[70078][      debug]   major_words: 262848
+[70078][      debug]   minor_collections: 37
+[70078][      debug]   major_collections: 12
+[70078][      debug]   compactions: 0
+[70078][      debug]   top_heap_words: 4630528
+[70078][      debug]   
+[70078][      debug] GC stats for backend_stats.gc_stats_max.:
+[70078][      debug]   minor_words: 1.12978e+07
+[70078][      debug]   promoted_words: 51449
+[70078][      debug]   major_words: 79219
+[70078][      debug]   minor_collections: 11
+[70078][      debug]   major_collections: 3
+[70078][      debug]   compactions: 0
+[70078][      debug]   top_heap_words: 1157632
+[70078][      debug]   
+[70078][      debug] Average over 4 processes
+[70078][      debug] GC stats for backend_stats.gc_stats_average.:
+[70078][      debug]   minor_words: 9.29852e+06
+[70078][      debug]   promoted_words: 44846.2
+[70078][      debug]   major_words: 65712
+[70078][      debug]   minor_collections: 9
+[70078][      debug]   major_collections: 3
+[70078][      debug]   compactions: 0
+[70078][      debug]   top_heap_words: 1157632
+[70078][      debug]   
+[70078][      debug] Analysis phase finished in 119ms
+[70078][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02299500
+[70078][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01324400
+[70078][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.11948621
+[70078][      debug] GC stats for analysis_scheduler:
+[70078][      debug]   minor_words: 1.24342e+06
+[70078][      debug]   promoted_words: 9008
+[70078][      debug]   major_words: 17714
+[70078][      debug]   minor_collections: 2
+[70078][      debug]   major_collections: 2
+[70078][      debug]   compactions: 1
+[70078][      debug]   top_heap_words: 1157632
+[70078][      debug]   
+[70078][      debug] GC stats for report:
+[70078][      debug]   minor_words: 6902
+[70078][      debug]   promoted_words: 0
+[70078][      debug]   major_words: 0
+[70078][      debug]   minor_collections: 0
+[70078][      debug]   major_collections: 0
+[70078][      debug]   compactions: 0
+[70078][      debug]   top_heap_words: 1157632
+[70078][      debug]   
+[70078][      debug] GC stats for main_process_full:
+[70078][      debug]   minor_words: 5.20917e+06
+[70078][      debug]   promoted_words: 536881
+[70078][      debug]   major_words: 1.07206e+06
+[70078][      debug]   minor_collections: 9
+[70078][      debug]   major_collections: 4
+[70078][      debug]   compactions: 2
+[70078][      debug]   top_heap_words: 1157632
+[70078][      debug]   
+[70079][      debug] Sqlite write daemon: terminating
